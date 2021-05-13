@@ -13,6 +13,8 @@
 		86F16CC4264D02E100E28263 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F16CC3264D02E100E28263 /* Preview Assets.xcassets */; };
 		86F16CCF264D02E100E28263 /* FriendzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F16CCE264D02E100E28263 /* FriendzTests.swift */; };
 		86F16CDA264D02E100E28263 /* FriendzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F16CD9264D02E100E28263 /* FriendzUITests.swift */; };
+		86F16CEC264D042600E28263 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F16CEB264D042600E28263 /* User.swift */; };
+		86F16CF4264D13C300E28263 /* DetailUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F16CF3264D13C300E28263 /* DetailUserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		86F16CD5264D02E100E28263 /* FriendzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F16CD9264D02E100E28263 /* FriendzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendzUITests.swift; sourceTree = "<group>"; };
 		86F16CDB264D02E100E28263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F16CEB264D042600E28263 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		86F16CF3264D13C300E28263 /* DetailUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +99,13 @@
 		86F16CBB264D02DF00E28263 /* Friendz */ = {
 			isa = PBXGroup;
 			children = (
+				86F16CEA264D040800E28263 /* model */,
 				86F16CBC264D02DF00E28263 /* FriendzApp.swift */,
 				86F16CBE264D02DF00E28263 /* ContentView.swift */,
 				86F16CC0264D02E100E28263 /* Assets.xcassets */,
 				86F16CC5264D02E100E28263 /* Info.plist */,
 				86F16CC2264D02E100E28263 /* Preview Content */,
+				86F16CF3264D13C300E28263 /* DetailUserView.swift */,
 			);
 			path = Friendz;
 			sourceTree = "<group>";
@@ -128,6 +134,14 @@
 				86F16CDB264D02E100E28263 /* Info.plist */,
 			);
 			path = FriendzUITests;
+			sourceTree = "<group>";
+		};
+		86F16CEA264D040800E28263 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				86F16CEB264D042600E28263 /* User.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86F16CF4264D13C300E28263 /* DetailUserView.swift in Sources */,
 				86F16CBF264D02DF00E28263 /* ContentView.swift in Sources */,
 				86F16CBD264D02DF00E28263 /* FriendzApp.swift in Sources */,
+				86F16CEC264D042600E28263 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
